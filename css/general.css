@@ -887,6 +887,14 @@ color: #ECEBEB;
 
 /* Colors and sizes for individual in flow buttons */
 
+.morph-button-inflow-1 {
+width: 600px;
+margin: 2em auto;
+-webkit-transition: height 0.5s cubic-bezier(0.7,0,0.3,1);
+transition: height 0.5s cubic-bezier(0.7,0,0.3,1);
+}
+
+
 .morph-button-inflow-1 > button span {
 	visibility: hidden;
 }
