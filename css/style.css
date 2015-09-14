@@ -6,6 +6,12 @@ Build: 1.0
 http://www.andreagalanti.it
 */
 
+.bottomblank {
+  background-image:url(OJO/img/intro/intro-bg.jpg);
+  height: 500px;
+}
+
+
 @font-face {
   font-family: 'Lato';
   src: url('../fonts/lato/lato-black.eot');
