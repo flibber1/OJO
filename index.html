@@ -12,7 +12,8 @@
     
     <link rel="stylesheet" href="css/normalize.css">
 
-    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css'>
+    <!--<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css'>-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <!--Fonts-->
     <link href='https://fonts.googleapis.com/css?family=Quicksand:300' rel='stylesheet' type='text/css'>
@@ -35,8 +36,11 @@ section,
 		transition: all 1s cubic-bezier(.5, -0.005, 0.2, 1) !important;
 		-webkit-transition: all 1s cubic-bezier(.5, -0.005, 0.2, 1) !important;
 		color: #fff;
-		background: #374046;
+		background: #FE9165;
 		overflow: hidden;
+		top: 0;
+		bottom: 0;
+		
 }
 
 section {
@@ -169,6 +173,26 @@ a {
 
 .actualtitle {
 		letter-spacing: 10px;
+		top: 50%;
+    	left: 50%;
+    	margin-right: -50%;
+}
+
+.centering {
+		top: 50%;
+    	left: 50%;
+    	margin-right: -50%;
+}
+
+.fa-center {
+	display:inline-block;
+    line-height: 50px;
+    background-color:black;
+    color:white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: bottom;
 }
 
 .hint {
@@ -252,7 +276,7 @@ a {
 								<section>
 										<ul>
 												<a href="#t1">
-														<li class="icon fa fa-home" id="uno"></li>
+														<li class="icon fa fa-gg" id="uno"></li>
 												</a>
 												<a href="#t2">
 														<li class="icon fa fa-keyboard-o" id="dos"></li>
@@ -265,7 +289,7 @@ a {
 												</a>
 										</ul>
 										<div class="page" id="p1">
-												<li class="icon fa fa-home"><span class="title actualtitle">JUNG OH</span><span class="hint">Like this pen to see the magic!...<br/> Just kidding, it won't happen anything but I'll be really happy If you do so.</span></li>
+												<li class="fa fa-gg icon fa-center"><span class="title actualtitle">JUNG OH</span><span class="hint centering">URBAN PLANNER & GIS ANALYST<br/><br/> Please squeeze this Orange.</span></li>
 										</div>
 										<div class="page" id="p2">
 												<li class="icon fa fa-keyboard-o"><span class="title">Type</span></li>
@@ -276,7 +300,7 @@ a {
 										<div class="page" id="p4">
 												<li class="icon fa fa-dribbble"><span class="title">Dribbble</span><span class="hint"><a href="https://dribbble.com/" target="_blank">Follow me on Dribbble</span></li>
 										</div>
-										<p class="credit"> Original Juice By Jung<a href="put link here"></a></p>
+										<p class="credit"> Original Juice By Junghoon Oh<a href="put link here"></a></p>
 								</section>
 
 						</div>
