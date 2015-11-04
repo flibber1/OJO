@@ -20,6 +20,9 @@
 
         <style>
       /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+
+      /*COLORS Orange - FE9165 */
+
       * {
 		transition: all 500ms ease-out;
 		-webkit-transition: all 500ms ease-out;
@@ -57,17 +60,17 @@ section {
 
 #p2 {
 		left: 100%;
-		background: #477BA3;
+		background: #FFA891;
 }
 
 #p3 {
 		left: 200%;
-		background: #FEBD65;
+		background: #FFC472;
 }
 
 #p4 {
 		left: 300%;
-		background: #45AE81;
+		background: #89BABE;
 }
 
 ul {
@@ -80,21 +83,21 @@ ul {
 }
 
 #t2:target .page#p2 {
-		transform: translateX(-90%);
+		transform: translateX(-92%);
 }
 
 #t3:target .page#p3 {
-		transform: translateX(-190%);
+		transform: translateX(-192%);
 }
 
 #t4:target .page#p4 {
-		transform: translateX(-290%);
+		transform: translateX(-292%);
 }
 
 #t2:target .page#p1,
 #t3:target .page#p1,
 #t4:target .page#p1 {
-		background: black;
+		background: #565656;
 }
 
 #t2:target .page#p1 .icon,
@@ -157,7 +160,8 @@ ul li {
 
 a {
 		text-decoration: none;
-		font-family: open sans, sans-serif;
+		font-family: Quicksand, sans-serif;
+		font-size: 15px;
 }
 
 .title,
@@ -195,15 +199,16 @@ a {
 
 .hint {
 		font-size: 13px;
+		font-weight: 600;
 }
 
 .hint a {
-		color: #EFFF06;
+		color: white;
 		transition: all 250ms easet-out;
 }
 
 .hint a:hover {
-		color: #FFF;
+		color: #fff;
 }
 
 .homeright{
@@ -263,6 +268,11 @@ a {
 		color: #fff
 }
 
+a:hover {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #2ACA9A;
+    text-decoration: none;
+}
 
     </style>
 
@@ -284,26 +294,29 @@ a {
 														<li class="icon fa fa-gg" id="uno"></li>
 												</a>
 												<a href="#t2">
-														<li class="icon fa fa-diamond" id="dos"></li>
+														<li class="icon fa fa-file-text-o" id="dos"></li>
 												</a>
 												<a href="#t3">
-														<li class="icon fa fa-compass" id="tres"></li>
+														<li class="icon fa fa-bicycle" id="tres"></li>
 												</a>
 												<a href="#t4">
-														<li class="icon fa fa-empire" id="cuatro"></li>
+														<li class="icon fa fa-photo" id="cuatro"></li>
 												</a>
 										</ul>
 										<div class="page" id="p1">
-												<li class="fa fa-gg homeright icon"><span class="title letterspace">JUNG OH</span><span class="hint">URBAN PLANNER & GIS ANALYST<br/><br/> Please squeeze this Orange.</span></li>
+												<li class="fa fa-gg homeright icon"><span class="title letterspace">JUNG OH</span><span class="hint">URBAN PLANNER & GIS ANALYST<p></span><span class="hint"><a href="https://ca.linkedin.com/in/ohjung">linkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+													<a href="https://instagram.com/jungleoh/">Instagram</a></li></span></p>
+
 										</div>
 										<div class="page" id="p2">
-												<li class="icon fa right fa-diamond"><span class="title">About Me</span></li>
+												<li class="icon fa right p2color fa-file-text-o"><span class="title">About Me</span></li>
 										</div>
 										<div class="page" id="p3">
-												<li class="icon fa right fa-compass"><span class="title">Interests</span></li>
+												<li class="icon fa right p3color fa-bicycle"><span class="title">Interests</span></li>
 										</div>
 										<div class="page" id="p4">
-												<li class="icon fa right fa-empire"><span class="title">Portfolio</span><span class="hint"><a href="https://dribbble.com/" target="_blank">Follow me on Dribbble</span></li>
+												<li class="icon fa right p4color fa-photo"><span class="title">Portfolio</span><span class="hint"><a href="https://dribbble.com/" target="_blank">Follow me on Dribbble</span></li>
 										</div>
 										<p class="credit"> <a href="put link here"></a></p>
 								</section>
