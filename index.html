@@ -222,11 +222,11 @@ a {
 .page .icon {
 		position: absolute;
 		top: 0;
-		bottom: 0;
 		left: 0;
-		width: 270px;
+		width: 400px;
 		height: 170px;
 		margin: auto;
+		margin-top: 15%;
 		text-align: center;
 		font-size: 80px;
 		transform: translateX(360%);
@@ -269,10 +269,45 @@ a {
 }
 
 a:hover {
-    padding-bottom: 2px;
+    padding-bottom: 3px;
     border-bottom: 2px solid #2ACA9A;
     text-decoration: none;
 }
+
+/*ABOUT ME*/
+.aboutstyle {
+	font-family: Quicksand;
+	font-size: 2px;
+}
+
+/*portfolio grid*/
+
+#imagelist {
+	font-size: 0;
+	width: 261px;
+	margin: 0 auto;
+}
+
+#imagelist a {
+	margin: 2px;
+	border: 4px solid transparent;
+	display: inline-block;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	transition: all .3s ease-out;
+	-webkit-transition: all .3s ease-out;
+}
+
+#imagelist a:hover {
+	border-color: #2ACA9A;
+	opacity: 1
+}
+
+#imagelist img {
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
 
     </style>
 
@@ -304,19 +339,32 @@ a:hover {
 												</a>
 										</ul>
 										<div class="page" id="p1">
-												<li class="fa fa-gg homeright icon"><span class="title letterspace">JUNG OH</span><span class="hint">URBAN PLANNER & GIS ANALYST<p></span><span class="hint"><a href="https://ca.linkedin.com/in/ohjung">linkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+												<li class="fa fa-gg homeright icon"><span class="title letterspace">JUNG OH</span><span class="hint">LAND DEVELOPMENT URBANISTE & GIS ANALYST<p></span><span class="hint"><a href="https://ca.linkedin.com/in/ohjung">linkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 													<a href="https://instagram.com/jungleoh/">Instagram</a></li></span></p>
 
 										</div>
 										<div class="page" id="p2">
-												<li class="icon fa right p2color fa-file-text-o"><span class="title">About Me</span></li>
+												<li class="icon fa right p2color fa-file-text-o"><span class="title">Who Am I?</span></li>
+
+												<p class="icon aboutstyle right">I am a Land Development Planner and GIS Analyst currently based in Ottawa. </p>
+
+
 										</div>
 										<div class="page" id="p3">
-												<li class="icon fa right p3color fa-bicycle"><span class="title">Interests</span></li>
+												<li class="icon fa right p3color fa-bicycle"><span class="title">Skills and Interests</span></li>
 										</div>
 										<div class="page" id="p4">
 												<li class="icon fa right p4color fa-photo"><span class="title">Portfolio</span><span class="hint"><a href="https://dribbble.com/" target="_blank">Follow me on Dribbble</span></li>
+
+												<span id="imagelist"> 
+													<a href="images/a.png"><img src="images/a.png" alt="imagea">
+													<a href="images/b.png"><img src="images/b.png" alt="imageb">
+													<a href="images/c.png"><img src="images/c.png" alt="imagec">
+												</span>
+
+
+
 										</div>
 										<p class="credit"> <a href="put link here"></a></p>
 								</section>
